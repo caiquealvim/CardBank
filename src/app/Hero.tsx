@@ -7,8 +7,11 @@ import React from 'react'
 const Hero = () => {
   return (
  <div className='bg-blue-800 w-[100%] h-[40rem] pt-6 md:pt-[12vh] md:h-[100vh] '>
-    <div className='flex justify-center flex-col w-[80%] h-[100%] mx-auto'>
+
+    <div className='flex justify-center flex-col w-[80%] h-[100%] mx-auto mt-10 md:mt-1'>
+
     <div className='grid grid-cols-1 md:grid-cols-2 gap-[3rem] items-center'>
+      
     <div className='flex flex-col gap-3 text-white'>
        <div className='flex   '>
        <p data-aos="fade-right" className='pr-2  mb-[1.3rem]'>WELCOME TO LOANTEAM</p>
@@ -25,7 +28,7 @@ const Hero = () => {
     </div>
     </div>
     
-    <div className='hidden md:block' data-aos="fade-right" data-aos-delay="400">
+    <div className='' data-aos="fade-right" data-aos-delay="400">
         <Image src='/images/card1.png' width={400} height={400} alt='card1' data-aos="fade-right" data-aos-delay="400"
         className=''
         />
